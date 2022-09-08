@@ -1,15 +1,15 @@
-using ComponenteNegocio;
-using Microsoft.Extensions.DependencyInjection;
 using Modelo;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Threading.Tasks;
-using System;
+using ComponenteNegocio;
 
 namespace TestesUsuario
 {
     [TestClass]
     public class ComponenteNegocioUsuarioTeste
     {
-        public void 
+        public static void TesteListarPorId(int id)
+        {
+            //Usuario usuario = new();
+            //var lista = usuario.ListarPorId(id = 1);
+        }
     }
 }

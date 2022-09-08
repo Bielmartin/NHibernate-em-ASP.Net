@@ -1,6 +1,7 @@
-using ComponenteNegocio;
 using ComponenteNegocio.Data;
 using Microsoft.EntityFrameworkCore;
+using Modelo.Componentes;
+using ComponenteNegocio;
 
 //var configuration = WebApplication.
 

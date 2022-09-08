@@ -1,6 +1,7 @@
 ﻿using ComponenteNegocio;
 using Microsoft.AspNetCore.Mvc;
 using Modelo;
+using Modelo.Componentes;
 
 namespace SiteDeCadastro.Controllers
 {

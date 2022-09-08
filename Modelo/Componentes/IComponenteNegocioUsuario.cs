@@ -1,6 +1,4 @@
-﻿using Modelo;
-
-namespace ComponenteNegocio
+﻿namespace Modelo.Componentes
 {
     public interface IComponenteNegocioUsuario
     {

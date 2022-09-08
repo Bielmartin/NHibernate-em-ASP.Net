@@ -1,0 +1,5 @@
+E:\Projetos\Site + Lib(dll)\ProjetoComsumoDLL\ConsoleProject\obj\Debug\net6.0\ConsoleProject.csproj.AssemblyReference.cache
+E:\Projetos\Site + Lib(dll)\ProjetoComsumoDLL\ConsoleProject\obj\Debug\net6.0\ConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\Site + Lib(dll)\ProjetoComsumoDLL\ConsoleProject\obj\Debug\net6.0\ConsoleProject.AssemblyInfoInputs.cache
+E:\Projetos\Site + Lib(dll)\ProjetoComsumoDLL\ConsoleProject\obj\Debug\net6.0\ConsoleProject.AssemblyInfo.cs
+E:\Projetos\Site + Lib(dll)\ProjetoComsumoDLL\ConsoleProject\obj\Debug\net6.0\ConsoleProject.csproj.CoreCompileInputs.cache

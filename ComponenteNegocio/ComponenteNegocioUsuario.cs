@@ -1,6 +1,5 @@
-﻿using ComponenteNegocio.Data;
-using Microsoft.EntityFrameworkCore;
-using Modelo;
+﻿using Modelo;
+using Modelo.Componentes;
 using Modelo.Repositorios;
 
 namespace ComponenteNegocio
