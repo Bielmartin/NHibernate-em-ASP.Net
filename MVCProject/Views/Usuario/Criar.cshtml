@@ -1,0 +1,27 @@
+﻿@model Modelo.Usuario
+@{
+    ViewData["Title"] = "Criar usuário";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar Usuário</h1>
+
+</div>
+
+<form asp-controller="Usuario" asp-action="Criar" method="post">
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        @Html.TextBoxFor(model => model.Nome, new { @class = "form-control", @placeholder = "Digite o seu nome" }) 
+        @Html.ValidationMessageFor(model => model.Nome, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        <label for="cnpj">CNPJ</label>
+        @Html.TextBoxFor(model => model.CNPJ, new { @class = "form-control", @type = "number", @placeholder = "Digite o seu CNPJ" })
+        @Html.ValidationMessageFor(model => model.CNPJ, "", new { @class = "text-danger" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Registrar</button>
+    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+</form>

@@ -1,0 +1,27 @@
+﻿@model Modelo.Usuario
+@{
+    ViewData["Title"] = "Editar usuário";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Alterar Usuário</h1>
+</div>
+
+<form asp-controller="Usuario" asp-action="Editar" method="post">
+
+    <input type="hidden" asp-for="Id"/>
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        @{/*Ao utilizar TextBoxFor, você associa o propriedade da classe com o input*/}
+
+        @Html.TextBoxFor(model => model.Nome, new { @class = "form-control", @placeholder = "Digite o seu nome" }) 
+    </div>
+
+    <div class="form-group">
+        <label for="cnpj">CNPJ</label>
+        @Html.TextBoxFor(model => model.CNPJ, new { @class = "form-control", @placeholder = "Digite o seu nome" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Alterar</button>
+    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="Index" role="button">Voltar</a>
+</form>
